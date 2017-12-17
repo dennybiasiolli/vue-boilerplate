@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:dennybiasiolli/vue-boilerplate.git",
   "author": "Denny Biasiolli <denny.biasiolli@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.5.11"
+  }
 }
