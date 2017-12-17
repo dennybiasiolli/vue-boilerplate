@@ -1,12 +1,12 @@
 import Vue from 'vue'
 
-import { comp1 } from '@/app'
-import { comp2 } from '@/app2'
-import { comp3 } from '@/app3'
-import { comp4 } from '@/app4'
-import { comp5 } from '@/app5'
-import { comp6 } from '@/app6'
-import { comp7 } from '@/app7'
+import comp1 from '@/comp1'
+import comp2 from '@/comp2'
+import comp3 from '@/comp3'
+import comp4 from '@/comp4'
+import comp5 from '@/comp5'
+import comp6 from '@/comp6'
+import comp7 from '@/comp7'
 
 export const mainApp = new Vue({
   el: '#main-app',
