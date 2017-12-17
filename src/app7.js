@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue from 'vue'
 
 // Define a new component called todo-item
 Vue.component('todo-item', {
@@ -9,7 +9,7 @@ Vue.component('todo-item', {
   template: '<li>{{ todo.text }}</li>'
 })
 
-var app7 = new Vue({
+export const app7 = new Vue({
   el: '#app-7',
   data: {
     groceryList: [
