@@ -1,3 +1,5 @@
+import Vue from 'vue';
+
 // Define a new component called todo-item
 Vue.component('todo-item', {
   // The todo-item component now accepts a
