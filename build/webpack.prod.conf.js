@@ -1,3 +1,4 @@
+const path = require('path')
 const webpack = require('webpack')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const baseWebpackConfig = require('./webpack.base.conf')
@@ -17,8 +18,6 @@ prodWebpackConfig.plugins.push(
     sourceMap: true,
     parallel: true
   }),
-  // keep module.id stable when vender modules does not change
-  new webpack.HashedModuleIdsPlugin(),
   // enable scope hoisting
   new webpack.optimize.ModuleConcatenationPlugin()
 );
