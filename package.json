@@ -6,6 +6,9 @@
   "repository": "git@github.com:dennybiasiolli/vue-boilerplate.git",
   "author": "Denny Biasiolli <denny.biasiolli@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "vue": "^2.5.11",
     "webpack": "^3.10.0"
