@@ -8,10 +8,17 @@ module.exports = {
     filename: '[name].js'
   },
   resolve: {
+    extensions: ['.js', '.vue', '.json'],
     alias: {
       '@': path.join(__dirname, '../src'),
       'vue$': 'vue/dist/vue.esm.js'
     }
+  },
+  module: {
+    rules: [{
+      test: /\.vue$/,
+      loader: 'vue-loader'
+    }]
   },
   plugins: [
     // keep module.id stable when vendor modules does not change
