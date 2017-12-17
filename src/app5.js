@@ -1,9 +1,15 @@
 import Vue from 'vue'
 
-export const app5 = new Vue({
-  el: '#app-5',
-  data: {
-    message: 'Hello Vue.js!'
+export const comp5 = Vue.component('comp5', {
+  template: `
+<div>
+  <p>{{ message }}</p>
+  <button v-on:click="reverseMessage">Reverse Message</button>
+</div>`,
+  data: function () {
+    return {
+      message: 'Hello Vue.js!'
+    }
   },
   methods: {
     reverseMessage: function () {

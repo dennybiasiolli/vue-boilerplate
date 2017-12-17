@@ -1,8 +1,13 @@
 import Vue from 'vue'
 
-export const app3 = new Vue({
-  el: '#app-3',
-  data: {
-    seen: true
+export const comp3 = Vue.component('comp3', {
+  template: `
+<div>
+  <span v-if="seen">Now you see me</span>
+</div>`,
+  data: function () {
+    return {
+      seen: true
+    }
   }
 })
