@@ -1,8 +1,14 @@
 import Vue from 'vue'
 
-export const app6 = new Vue({
-  el: '#app-6',
-  data: {
-    message: 'Hello Vue!'
+export const comp6 = Vue.component('comp6', {
+  template: `
+<div>
+  <p>{{ message }}</p>
+  <input v-model="message">
+</div>`,
+  data: function () {
+    return {
+      message: 'Hello Vue!'
+    }
   }
 })

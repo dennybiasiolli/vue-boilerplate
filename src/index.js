@@ -1,9 +1,22 @@
-import { app } from '@/app'
-import { app2 } from '@/app2'
-import { app3 } from '@/app3'
-import { app4 } from '@/app4'
-import { app5 } from '@/app5'
-import { app6 } from '@/app6'
-import { app7 } from '@/app7'
+import Vue from 'vue'
 
-export default { app, app2, app3, app4, app5, app6, app7 }
+import { comp1 } from '@/app'
+import { comp2 } from '@/app2'
+import { comp3 } from '@/app3'
+import { comp4 } from '@/app4'
+import { comp5 } from '@/app5'
+import { comp6 } from '@/app6'
+import { comp7 } from '@/app7'
+
+export const mainApp = new Vue({
+  el: '#main-app',
+  components: {
+    comp1: comp1,
+    comp2: comp2,
+    comp3: comp3,
+    comp4: comp4,
+    comp5: comp5,
+    comp6: comp6,
+    comp7: comp7
+  }
+})
