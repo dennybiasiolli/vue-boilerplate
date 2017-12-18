@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comp7 should match snapshot 1`] = `
+<div>
+  <ol>
+    <li>
+      Vegetables
+    </li>
+    <li>
+      Cheese
+    </li>
+    <li>
+      Whatever else humans are supposed to eat
+    </li>
+  </ol>
+</div>
+`;
