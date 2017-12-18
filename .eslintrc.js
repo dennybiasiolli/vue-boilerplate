@@ -2,6 +2,10 @@
 
 module.exports = {
   root: true,
+  env: {
+    browser: true,
+    jest: true
+  },
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
   extends: 'standard',
   // required to lint *.vue files
