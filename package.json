@@ -9,9 +9,11 @@
   "scripts": {
     "build": "webpack --config=build/webpack.dev.conf.js",
     "dist": "webpack --config=build/webpack.prod.conf.js",
-    "lint": "eslint src build --ext .js,.vue --fix"
+    "lint": "eslint src build --ext .js,.vue --fix",
+    "test": "jest --config test/unit/jest.conf.js --coverage"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.13.1",
     "eslint-config-standard": "^11.0.0-beta.0",
@@ -22,10 +24,13 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.0.1",
+    "jest-vue-preprocessor": "^1.3.1",
     "uglifyjs-webpack-plugin": "^1.1.4",
     "vue": "^2.5.11",
     "vue-loader": "^13.6.0",
     "vue-template-compiler": "^2.5.11",
+    "vue-test-utils": "^1.0.0-beta.8",
     "webpack": "^3.10.0"
   }
 }
