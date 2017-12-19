@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comp5 should match snapshot 1`] = `
+<div>
+  <p>
+    Hello Vue.js!
+  </p>
+   
+  <button>
+    Reverse Message
+  </button>
+</div>
+`;
+
+exports[`comp5 should match snapshot 2`] = `
+<div>
+  <p>
+    !sj.euV olleH
+  </p>
+   
+  <button>
+    Reverse Message
+  </button>
+</div>
+`;
