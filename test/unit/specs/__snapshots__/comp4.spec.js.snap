@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comp4 should match snapshot 1`] = `
+<div>
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`comp4 should match snapshot 2`] = `
+<div>
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+    <li>
+      test 4th element
+    </li>
+  </ol>
+</div>
+`;
