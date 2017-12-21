@@ -16,7 +16,12 @@ describe('todoItem', () => {
   // Evaluate the results of functions in
   // the raw component options
   test('sets the correct default data', () => {
-    expect(todoItem.props).toEqual(['todo'])
+    expect(todoItem.props).toEqual({
+      todo: {
+        type: Object,
+        required: true
+      }
+    })
     expect(todoItem.data).toBeUndefined()
   })
 
