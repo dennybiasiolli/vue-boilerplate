@@ -1,5 +1,5 @@
 import { shallow } from 'vue-test-utils'
-import comp4 from '@/comp4'
+import comp4 from '@/components/comp4'
 
 describe('comp4', () => {
   test('should match snapshot', (done) => {
