@@ -4,6 +4,11 @@
 
 <script>
 export default {
-  props: ['todo']
+  props: {
+    todo: {
+      type: Object,
+      required: true
+    }
+  }
 }
 </script>
