@@ -1,5 +1,5 @@
 import { shallow } from 'vue-test-utils'
-import comp5 from '@/comp5'
+import comp5 from '@/components/comp5'
 
 describe('comp5', () => {
   let component, vm, element

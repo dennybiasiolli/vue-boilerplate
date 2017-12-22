@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import todoItem from '@/todoItem'
+import todoItem from '@/components/todoItem'
 
 export default {
   components: {
