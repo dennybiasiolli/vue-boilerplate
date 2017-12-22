@@ -2,7 +2,10 @@
   "eslint.validate": [
     "javascript",
     "javascriptreact",
-    "vue"
+    {
+      "language": "vue",
+      "autoFix": true
+    }
   ],
   "prettier.singleQuote": true,
   "prettier.semi": false

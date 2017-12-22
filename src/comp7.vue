@@ -1,8 +1,10 @@
 <template>
   <div>
     <ol>
-      <todo-item v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id">
-      </todo-item>
+      <todo-item
+        v-for="item in groceryList"
+        :todo="item"
+        :key="item.id"/>
     </ol>
   </div>
 </template>
@@ -11,6 +13,9 @@
 import todoItem from '@/todoItem'
 
 export default {
+  components: {
+    'todo-item': todoItem
+  },
   data() {
     return {
       groceryList: [
@@ -19,9 +24,6 @@ export default {
         { id: 2, text: 'Whatever else humans are supposed to eat' }
       ]
     }
-  },
-  components: {
-    'todo-item': todoItem
   }
 }
 </script>
