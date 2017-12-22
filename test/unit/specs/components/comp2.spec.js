@@ -1,5 +1,5 @@
 import { shallow } from 'vue-test-utils'
-import comp2 from '@/comp2'
+import comp2 from '@/components/comp2'
 
 describe('comp2', () => {
   // Evaluate the results of functions in
