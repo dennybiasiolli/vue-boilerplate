@@ -1,5 +1,5 @@
 import { shallow } from 'vue-test-utils'
-import todoItem from '@/components/todoItem.vue'
+import todoItem from '@/components/todoItem'
 
 describe('todoItem', () => {
   let component, element

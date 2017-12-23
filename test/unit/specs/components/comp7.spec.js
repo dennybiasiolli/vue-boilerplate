@@ -1,6 +1,6 @@
 import { mount } from 'vue-test-utils'
-import comp7 from '@/components/comp7.vue'
-import todoItem from '@/components/todoItem.vue'
+import comp7 from '@/components/comp7'
+import todoItem from '@/components/todoItem'
 
 describe('comp7', () => {
   let component, vm, element
