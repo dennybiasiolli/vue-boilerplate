@@ -4,18 +4,70 @@ exports[`App should match snapshot 1`] = `
 <div
   id="app"
 >
-  <!---->
+  <h1>
+    Sample App!
+  </h1>
    
-  <!---->
+  <p>
+    Click on the component to show it
+  </p>
    
-  <!---->
+  <p>
+    <router-link
+      to="/comp1"
+    >
+      Component 1
+    </router-link>
+    
+    |
+    
+    <router-link
+      to="/comp2"
+    >
+      Component 2
+    </router-link>
+    
+    |
+    
+    <router-link
+      to="/comp3"
+    >
+      Component 3
+    </router-link>
+    
+    |
+    
+    <router-link
+      to="/comp4"
+    >
+      Component 4
+    </router-link>
+    
+    |
+    
+    <router-link
+      to="/comp5"
+    >
+      Component 5
+    </router-link>
+    
+    |
+    
+    <router-link
+      to="/comp6"
+    >
+      Component 6
+    </router-link>
+    
+    |
+    
+    <router-link
+      to="/comp7"
+    >
+      Component 7
+    </router-link>
+  </p>
    
-  <!---->
-   
-  <!---->
-   
-  <!---->
-   
-  <!---->
+  <router-view />
 </div>
 `;
