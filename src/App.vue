@@ -1,35 +1,32 @@
 <template>
   <div id="app">
-    <comp1 />
-    <comp2 />
-    <comp3 />
-    <comp4 />
-    <comp5 />
-    <comp6 />
-    <comp7 />
+    <h1>Sample App!</h1>
+    <p>Click on the component to show it</p>
+    <p>
+      <!-- use router-link component for navigation. -->
+      <!-- specify the link by passing the `to` prop. -->
+      <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
+      <router-link to="/comp1">Component 1</router-link>
+      |
+      <router-link to="/comp2">Component 2</router-link>
+      |
+      <router-link to="/comp3">Component 3</router-link>
+      |
+      <router-link to="/comp4">Component 4</router-link>
+      |
+      <router-link to="/comp5">Component 5</router-link>
+      |
+      <router-link to="/comp6">Component 6</router-link>
+      |
+      <router-link to="/comp7">Component 7</router-link>
+    </p>
+    <router-view />
   </div>
 </template>
 
 <script>
-import comp1 from '@/components/comp1'
-import comp2 from '@/components/comp2'
-import comp3 from '@/components/comp3'
-import comp4 from '@/components/comp4'
-import comp5 from '@/components/comp5'
-import comp6 from '@/components/comp6'
-import comp7 from '@/components/comp7'
-
 export default {
-  name: 'App',
-  components: {
-    comp1: comp1,
-    comp2: comp2,
-    comp3: comp3,
-    comp4: comp4,
-    comp5: comp5,
-    comp6: comp6,
-    comp7: comp7
-  }
+  name: 'App'
 }
 </script>
 
