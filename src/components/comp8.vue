@@ -60,12 +60,9 @@ export default {
     mapGetters(['isCountEven', 'isCountOdd'])
   ),
   mounted() {
-    this.incrementAsync()
+    this.incrementAsync().then(() => {})
     this.localState++
   },
-  methods: Object.assign(
-    {},
-    mapActions(['incrementAsync'])
-  )
+  methods: Object.assign({}, mapActions(['incrementAsync']))
 }
 </script>

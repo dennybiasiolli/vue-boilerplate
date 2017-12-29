@@ -22,9 +22,12 @@ export const getters = {
 
 export const actions = {
   incrementAsync({ commit, state, getters }) {
-    setTimeout(() => {
-      commit('increment')
-    }, 1000)
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        commit('increment')
+        resolve()
+      }, 1000)
+    })
   }
 }
 
