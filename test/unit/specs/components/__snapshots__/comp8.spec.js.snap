@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comp8 should match snapshot 1`] = `
+<div>
+  <p>
+    
+    Coumponent mounted 1 times
+  
+  </p>
+   
+  <p>
+    
+    Counter is even? false
+  
+  </p>
+   
+  <p>
+    
+    Counter is odd? true
+  
+  </p>
+   
+  <p>
+    
+    State with local data: 11
+  
+  </p>
+   
+  <p>
+    
+    State with local computed data: 101
+  
+  </p>
+   
+  <p>
+    
+    Local state: 1001
+  
+  </p>
+</div>
+`;

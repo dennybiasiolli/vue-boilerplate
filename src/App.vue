@@ -19,6 +19,8 @@
       <router-link to="/comp6">Component 6</router-link>
       |
       <router-link to="/comp7">Component 7</router-link>
+      |
+      <router-link to="/comp8">Component 8</router-link>
     </p>
     <router-view />
   </div>
