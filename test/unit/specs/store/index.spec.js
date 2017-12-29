@@ -1,4 +1,4 @@
-import { state, mutations, getters } from '@/store'
+import { state, mutations, getters, actions } from '@/store'
 
 describe('state', () => {
   test('should have default state', () => {
@@ -46,6 +46,20 @@ describe('getters', () => {
       expect(isCountOdd({}, getters)).toBe(false)
       getters.isCountEven = false
       expect(isCountOdd({}, getters)).toBe(true)
+    })
+  })
+})
+
+describe('actions', () => {
+  describe('incrementAsync', () => {
+    const { incrementAsync } = actions
+    test('should return expected value', (done) => {
+      const context = { commit: jest.fn() }
+      incrementAsync(context)
+      setTimeout(() => {
+        expect(context.commit).toHaveBeenCalledWith('increment')
+        done()
+      }, 1050)
     })
   })
 })
