@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { mapState, mapMutations, mapGetters } from 'vuex'
+import { mapState, mapGetters, mapActions } from 'vuex'
 
 export default {
   data() {
@@ -60,9 +60,12 @@ export default {
     mapGetters(['isCountEven', 'isCountOdd'])
   ),
   mounted() {
-    this.increment()
+    this.incrementAsync()
     this.localState++
   },
-  methods: Object.assign({}, mapMutations(['increment']))
+  methods: Object.assign(
+    {},
+    mapActions(['incrementAsync'])
+  )
 }
 </script>

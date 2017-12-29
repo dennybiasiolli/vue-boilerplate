@@ -4,7 +4,7 @@ exports[`comp8 should match snapshot 1`] = `
 <div>
   <p>
     
-    Coumponent mounted 1 times
+    Coumponent mounted 0 times
   
   </p>
    
@@ -22,13 +22,13 @@ exports[`comp8 should match snapshot 1`] = `
    
   <p>
     
-    State with local data: 11
+    State with local data: 10
   
   </p>
    
   <p>
     
-    State with local computed data: 101
+    State with local computed data: 100
   
   </p>
    

@@ -7,15 +7,11 @@ localVue.use(Vuex)
 
 describe('comp8', () => {
   let component, vm, element
-  let state, mutations, getters
+  let state, getters, actions
 
   beforeEach(() => {
     state = {
       count: 0
-    }
-
-    mutations = {
-      increment: jest.fn(state => state.count++)
     }
 
     getters = {
@@ -23,10 +19,14 @@ describe('comp8', () => {
       isCountOdd: jest.fn().mockReturnValue(true)
     }
 
+    actions = {
+      incrementAsync: jest.fn()
+    }
+
     const store = new Vuex.Store({
       state,
-      mutations,
-      getters
+      getters,
+      actions
     })
 
     component = shallow(comp8, { store, localVue })
@@ -47,7 +47,7 @@ describe('comp8', () => {
     expect(defaultData.localState).toBe(1000)
     expect(comp8.computed.localComputed()).toBe(100)
     expect(typeof comp8.mounted).toBe('function')
-    expect(typeof comp8.methods.increment).toBe('function')
+    expect(typeof comp8.methods.incrementAsync).toBe('function')
   })
 
   // Inspect the component instance on mount
@@ -55,14 +55,13 @@ describe('comp8', () => {
     expect(vm.localCount).toBe(10)
     expect(vm.localState).toBe(1001)
     expect(vm.localComputed).toBe(100)
-    expect(vm.count).toBe(1)
-    expect(vm.countAlias).toBe(1)
-    expect(vm.countPlusLocalData).toBe(11)
-    expect(vm.countPlusLocalComputed).toBe(101)
+    expect(vm.count).toBe(0)
+    expect(vm.countAlias).toBe(0)
+    expect(vm.countPlusLocalData).toBe(10)
+    expect(vm.countPlusLocalComputed).toBe(100)
     expect(vm.isCountEven).toBe(false)
     expect(vm.isCountOdd).toBe(true)
-    expect(mutations.increment).toHaveBeenCalled()
-    expect(mutations.increment.mock.calls[0][1]).toBeUndefined()
+    expect(actions.incrementAsync).toHaveBeenCalled()
     expect(getters.isCountEven).toHaveBeenCalled()
     expect(getters.isCountOdd).toHaveBeenCalled()
   })
