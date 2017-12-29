@@ -5,31 +5,44 @@ import comp8 from '@/components/comp8'
 const localVue = createLocalVue()
 localVue.use(Vuex)
 
+const state = {
+  count: 0
+}
+
+// Mock the `increment` mutation to make it
+// possible to check if it was called.
+let getters, actions
+
+// This function creates a new Vuex store
+// instance for every new test case.
+const createStore = () => {
+  getters = {
+    isCountEven: jest.fn().mockReturnValue(false),
+    isCountOdd: jest.fn().mockReturnValue(true)
+  }
+  actions = {
+    incrementAsync: jest.fn(() => Promise.resolve())
+  }
+  return new Vuex.Store({
+    modules: {
+      a: {
+        namespaced: true,
+        state,
+        actions,
+        getters
+      }
+    }
+  })
+}
+
 describe('comp8', () => {
   let component, vm, element
-  let state, getters, actions
 
   beforeEach(() => {
-    state = {
-      count: 0
-    }
-
-    getters = {
-      isCountEven: jest.fn().mockReturnValue(false),
-      isCountOdd: jest.fn().mockReturnValue(true)
-    }
-
-    actions = {
-      incrementAsync: jest.fn(() => Promise.resolve())
-    }
-
-    const store = new Vuex.Store({
-      state,
-      getters,
-      actions
+    component = shallow(comp8, {
+      localVue,
+      store: createStore()
     })
-
-    component = shallow(comp8, { store, localVue })
     vm = component.vm
     element = component.element
   })
