@@ -20,6 +20,14 @@ export const getters = {
   isCountOdd: (state, getters) => !getters.isCountEven
 }
 
+export const actions = {
+  incrementAsync({ commit, state, getters }) {
+    setTimeout(() => {
+      commit('increment')
+    }, 1000)
+  }
+}
+
 export default new Vuex.Store({
   // store global state
   state,
@@ -28,5 +36,7 @@ export default new Vuex.Store({
   mutations,
 
   // computed properties for store
-  getters
+  getters,
+
+  actions
 })
