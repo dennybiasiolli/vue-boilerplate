@@ -53,13 +53,11 @@ describe('getters', () => {
 describe('actions', () => {
   describe('incrementAsync', () => {
     const { incrementAsync } = actions
-    test('should return expected value', (done) => {
+    test('should return expected value', () => {
       const context = { commit: jest.fn() }
-      incrementAsync(context)
-      setTimeout(() => {
+      return incrementAsync(context).then(() => {
         expect(context.commit).toHaveBeenCalledWith('increment')
-        done()
-      }, 1050)
+      })
     })
   })
 })

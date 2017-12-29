@@ -20,7 +20,7 @@ describe('comp8', () => {
     }
 
     actions = {
-      incrementAsync: jest.fn()
+      incrementAsync: jest.fn(() => Promise.resolve())
     }
 
     const store = new Vuex.Store({
