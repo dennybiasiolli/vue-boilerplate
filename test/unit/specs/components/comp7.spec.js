@@ -1,4 +1,4 @@
-import { mount } from 'vue-test-utils'
+import { shallow, mount } from 'vue-test-utils'
 import comp7 from '@/components/comp7'
 import todoItem from '@/components/todoItem'
 
@@ -6,7 +6,7 @@ describe('comp7', () => {
   let component, vm, element
 
   beforeEach(() => {
-    component = mount(comp7)
+    component = shallow(comp7)
     vm = component.vm
     element = component.element
   })
@@ -42,6 +42,7 @@ describe('comp7', () => {
 
   // Mount an instance and inspect the render output
   test('renders the correct message', () => {
+    const element = mount(comp7).element
     expect(element.textContent).toContain('Vegetables')
     expect(element.textContent).toContain('Cheese')
     expect(element.textContent).toContain('Whatever else humans are supposed to eat')

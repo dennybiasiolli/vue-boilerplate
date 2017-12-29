@@ -66,6 +66,14 @@ exports[`App should match snapshot 1`] = `
     >
       Component 7
     </router-link>
+    
+    |
+    
+    <router-link
+      to="/comp8"
+    >
+      Component 8
+    </router-link>
   </p>
    
   <router-view />
