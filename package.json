@@ -14,9 +14,10 @@
     "test": "jest --config test/unit/jest.conf.js --coverage"
   },
   "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.11",
     "babel-preset-env": "^1.6.1",
-    "css-loader": "^0.28.8",
-    "eslint": "^4.14.0",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.16.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.9.0",
@@ -24,17 +25,16 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-vue": "^4.0.1",
-    "jest": "^22.0.4",
+    "eslint-plugin-vue": "^4.2.2",
+    "jest": "^22.1.4",
     "jest-vue-preprocessor": "^1.3.1",
-    "uglifyjs-webpack-plugin": "^1.1.6",
+    "uglifyjs-webpack-plugin": "^1.1.8",
     "vue": "^2.5.13",
-    "vue-loader": "^13.6.2",
+    "vue-loader": "^13.7.0",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.13",
-    "vue-test-utils": "^1.0.0-beta.9",
     "vuex": "^3.0.1",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^2.11.1"
   }
 }
