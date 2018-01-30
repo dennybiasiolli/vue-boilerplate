@@ -1,4 +1,4 @@
-import { shallow } from 'vue-test-utils'
+import { shallow } from '@vue/test-utils'
 import comp5 from '@/components/comp5'
 
 describe('comp5', () => {
