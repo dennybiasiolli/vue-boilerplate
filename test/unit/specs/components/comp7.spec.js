@@ -1,4 +1,4 @@
-import { shallow, mount } from 'vue-test-utils'
+import { shallow, mount } from '@vue/test-utils'
 import comp7 from '@/components/comp7'
 import todoItem from '@/components/todoItem'
 
