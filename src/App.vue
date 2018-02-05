@@ -21,6 +21,8 @@
       <router-link to="/comp7">Component 7</router-link>
       |
       <router-link to="/comp8">Component 8</router-link>
+      |
+      <router-link to="/dashboard">Dashboard</router-link>
     </p>
     <router-view />
   </div>
