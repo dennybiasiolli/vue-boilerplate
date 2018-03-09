@@ -1,12 +1,5 @@
-import { shallow, RouterLinkStub, createLocalVue } from '@vue/test-utils'
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { shallow, RouterLinkStub } from '@vue/test-utils'
 import App from '@/App'
-
-// const localVue = createLocalVue()
-// localVue.component('router-link', RouterLinkStub)
-// localVue.use(VueRouter)
-// Vue.use(VueRouter)
 
 describe('App', () => {
   test('should match snapshot', () => {
