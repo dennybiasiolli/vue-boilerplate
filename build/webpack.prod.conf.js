@@ -2,7 +2,9 @@ const webpack = require('webpack')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const baseWebpackConfig = require('./webpack.base.conf')
 
-const prodWebpackConfig = Object.assign({}, baseWebpackConfig)
+const prodWebpackConfig = Object.assign({}, baseWebpackConfig, {
+  mode: 'production'
+})
 
 prodWebpackConfig.plugins.push(
   new webpack.DefinePlugin({
