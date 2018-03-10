@@ -5,24 +5,24 @@
       <label>Username {{ username }}</label>
       <br>
       <input
-        type="text"
         v-model="username"
+        type="text"
         placeholder="Username">
     </p>
     <p>
       <label>Password</label>
       <br>
       <input
-        type="password"
         v-model="password"
+        type="password"
         placeholder="Password">
     </p>
     <p>
       <label>Remember me</label>
       <br>
       <input
-        type="checkbox"
-        v-model="remember">
+        v-model="remember"
+        type="checkbox">
     </p>
     <p>
       <button @click="login">Login</button>
