@@ -2,6 +2,7 @@ const webpack = require('webpack')
 const baseWebpackConfig = require('./webpack.base.conf')
 
 const devWebpackConfig = Object.assign({}, baseWebpackConfig, {
+  mode: 'development',
   devServer: {
     contentBase: './www',
     inline: true
