@@ -2,70 +2,360 @@
 
 exports[`App should match snapshot 1`] = `
 <div
+  class="application theme--light"
+  data-app="true"
   id="app"
 >
-  <h1>
-    Sample App!
-  </h1>
-   
-  <p>
-    Click on the component to show it
-  </p>
-   
-  <p>
-    <a>
-      Component 1
-    </a>
+  <div
+    class="application--wrap"
+  >
+    <aside
+      class="navigation-drawer navigation-drawer--close navigation-drawer--fixed navigation-drawer--is-mobile"
+      style="height: 100%; margin-top: 0px; max-height: calc(100% - 0px); width: 300px;"
+    >
+      <nav
+        class="toolbar elevation-0"
+        style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
+      >
+        <div
+          class="toolbar__content"
+          style="height: 64px;"
+        >
+          <div
+            class="list"
+          >
+            <div>
+              <div
+                class="list__tile"
+              >
+                <div
+                  class="list__tile__title title"
+                >
+                  
+            Application
+          
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+       
+      <hr
+        class="divider"
+      />
+       
+      <div
+        class="list"
+      >
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                dashboard
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Home
+              </div>
+            </div>
+          </a>
+        </div>
+         
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                polymer
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Component 1
+              </div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                polymer
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Component 2
+              </div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                polymer
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Component 3
+              </div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                polymer
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Component 4
+              </div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                polymer
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Component 5
+              </div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                polymer
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Component 6
+              </div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                polymer
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Component 7
+              </div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            class="list__tile list__tile--link"
+          >
+            <div
+              class="list__tile__action"
+            >
+              <i
+                aria-hidden="true"
+                class="icon material-icons"
+              >
+                dashboard
+              </i>
+            </div>
+             
+            <div
+              class="list__tile__content"
+            >
+              <div
+                class="list__tile__title"
+              >
+                Dashboard
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="navigation-drawer__border"
+      />
+    </aside>
+     
+    <nav
+      class="toolbar toolbar--fixed"
+      style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
+    >
+      <div
+        class="toolbar__content"
+        style="height: 64px;"
+      >
+        <button
+          class="toolbar__side-icon btn btn--icon"
+          type="button"
+        >
+          <div
+            class="btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="icon material-icons"
+            >
+              menu
+            </i>
+          </div>
+        </button>
+         
+        <div
+          class="toolbar__title"
+        >
+          
+      Sample App!
     
-    |
+        </div>
+         
+        <div
+          class="spacer"
+        />
+      </div>
+    </nav>
+     
+    <main
+      class="content"
+      style="padding: 64px 0px 0px 0px;"
+    >
+      <div
+        class="content--wrap"
+      >
+        <div
+          class="container fluid"
+        >
+          <!---->
+        </div>
+      </div>
+    </main>
+     
+    <footer
+      class="footer footer--fixed"
+      style="height: 32px;"
+    >
+      <div
+        class="spacer"
+      />
+      
+    © 2018 - Denny Biasiolli
     
-    <a>
-      Component 2
-    </a>
-    
-    |
-    
-    <a>
-      Component 3
-    </a>
-    
-    |
-    
-    <a>
-      Component 4
-    </a>
-    
-    |
-    
-    <a>
-      Component 5
-    </a>
-    
-    |
-    
-    <a>
-      Component 6
-    </a>
-    
-    |
-    
-    <a>
-      Component 7
-    </a>
-    
-    |
-    
-    <a>
-      Component 8
-    </a>
-    
-    |
-    
-    <a>
-      Dashboard
-    </a>
-  </p>
-   
-  <!---->
+      <div
+        class="spacer"
+      />
+    </footer>
+  </div>
 </div>
 `;

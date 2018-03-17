@@ -1,9 +1,11 @@
-import { shallow } from '@vue/test-utils'
+import { shallow, createLocalVue } from '@vue/test-utils'
 import comp4 from '@/components/comp4'
+
+const localVue = createLocalVue()
 
 describe('comp4', () => {
   test('should match snapshot', (done) => {
-    const component = shallow(comp4)
+    const component = shallow(comp4, { localVue })
     expect(component.element).toMatchSnapshot()
     component.vm.todos.push({ text: 'test 4th element' })
     component.vm.$nextTick(() => {
@@ -36,8 +38,8 @@ describe('comp4', () => {
 
   // Mount an instance and inspect the render output
   test('renders the correct todos list', () => {
-    const vm = shallow(comp4).vm
+    const vm = shallow(comp4, { localVue }).vm
     expect(vm.$el.textContent).toContain('Build something awesome')
-    expect(vm.$el.querySelector('ol').childElementCount).toBe(3)
+    expect(vm.$el.childElementCount).toBe(3)
   })
 })

@@ -1,7 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`todoItem should match snapshot 1`] = `
-<li>
-  ciao
-</li>
+<div>
+  <a
+    class="list__tile list__tile--link"
+  >
+    <div
+      class="list__tile__action"
+    >
+      <i
+        aria-hidden="true"
+        class="icon indigo--text material-icons"
+      >
+        keyboard_arrow_right
+      </i>
+    </div>
+     
+    <div
+      class="list__tile__content"
+    >
+      <div
+        class="list__tile__title"
+      >
+        ciao
+      </div>
+       
+      <div
+        class="list__tile__sub-title"
+      >
+        ciao
+      </div>
+    </div>
+  </a>
+</div>
 `;

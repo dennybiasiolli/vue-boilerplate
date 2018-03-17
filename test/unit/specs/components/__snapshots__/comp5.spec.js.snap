@@ -6,8 +6,15 @@ exports[`comp5 should match snapshot 1`] = `
     Hello Vue.js!
   </p>
    
-  <button>
-    Reverse Message
+  <button
+    class="btn"
+    type="button"
+  >
+    <div
+      class="btn__content"
+    >
+      Reverse Message
+    </div>
   </button>
 </div>
 `;
@@ -18,8 +25,15 @@ exports[`comp5 should match snapshot 2`] = `
     !sj.euV olleH
   </p>
    
-  <button>
-    Reverse Message
+  <button
+    class="btn"
+    type="button"
+  >
+    <div
+      class="btn__content"
+    >
+      Reverse Message
+    </div>
   </button>
 </div>
 `;
