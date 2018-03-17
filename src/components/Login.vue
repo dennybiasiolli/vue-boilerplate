@@ -1,33 +1,46 @@
 <template>
-  <div class="Login">
-    <h1>Login</h1>
-    <p>
-      <label>Username {{ username }}</label>
-      <br>
-      <input
-        v-model="username"
-        type="text"
-        placeholder="Username">
-    </p>
-    <p>
-      <label>Password</label>
-      <br>
-      <input
-        v-model="password"
-        type="password"
-        placeholder="Password">
-    </p>
-    <p>
-      <label>Remember me</label>
-      <br>
-      <input
-        v-model="remember"
-        type="checkbox">
-    </p>
-    <p>
-      <button @click="login">Login</button>
-    </p>
-  </div>
+  <v-container
+    fluid
+    fill-height>
+    <v-layout
+      align-center
+      justify-center>
+      <v-flex>
+        <v-card class="elevation-12">
+          <v-toolbar
+            dark
+            color="primary">
+            <v-toolbar-title>Login</v-toolbar-title>
+          </v-toolbar>
+          <v-card-text>
+            <v-form>
+              <v-text-field
+                :value="username"
+                prepend-icon="person"
+                name="login"
+                label="Username"
+                type="text" />
+              <v-text-field
+                :value="password"
+                prepend-icon="lock"
+                name="password"
+                label="Password"
+                type="password" />
+              <v-checkbox
+                v-model="remember"
+                label="Remember me" />
+            </v-form>
+          </v-card-text>
+          <v-card-actions>
+            <v-spacer />
+            <v-btn
+              color="primary"
+              @click="login">Login</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

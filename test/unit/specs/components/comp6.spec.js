@@ -1,9 +1,11 @@
-import { shallow } from '@vue/test-utils'
+import { shallow, createLocalVue } from '@vue/test-utils'
 import comp6 from '@/components/comp6'
+
+const localVue = createLocalVue()
 
 describe('comp6', () => {
   test('should match snapshot', () => {
-    const component = shallow(comp6)
+    const component = shallow(comp6, { localVue })
     expect(component.element).toMatchSnapshot()
   })
 

@@ -2,54 +2,150 @@
 
 exports[`Login should match snapshot 1`] = `
 <div
-  class="Login"
+  class="container fluid fill-height"
 >
-  <h1>
-    Login
-  </h1>
-   
-  <p>
-    <label>
-      Username 
-    </label>
-     
-    <br />
-     
-    <input
-      placeholder="Username"
-      type="text"
-    />
-  </p>
-   
-  <p>
-    <label>
-      Password
-    </label>
-     
-    <br />
-     
-    <input
-      placeholder="Password"
-      type="password"
-    />
-  </p>
-   
-  <p>
-    <label>
-      Remember me
-    </label>
-     
-    <br />
-     
-    <input
-      type="checkbox"
-    />
-  </p>
-   
-  <p>
-    <button>
-      Login
-    </button>
-  </p>
+  <div
+    class="layout align-center justify-center"
+  >
+    <div
+      class="flex"
+    >
+      <div
+        class="elevation-12 card"
+        style="height: auto;"
+      >
+        <nav
+          class="toolbar theme--dark primary"
+          style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
+        >
+          <div
+            class="toolbar__content"
+            style="height: 56px;"
+          >
+            <div
+              class="toolbar__title"
+            >
+              Login
+            </div>
+          </div>
+        </nav>
+         
+        <div
+          class="card__text"
+        >
+          <form
+            novalidate="novalidate"
+          >
+            <div
+              class="input-group input-group--prepend-icon input-group--text-field primary--text"
+            >
+              <label>
+                Username
+              </label>
+              <div
+                class="input-group__input"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon material-icons input-group__prepend-icon"
+                >
+                  person
+                </i>
+                <input
+                  aria-label="Username"
+                  name="login"
+                  tabindex="0"
+                  type="text"
+                />
+              </div>
+              <div
+                class="input-group__details"
+              >
+                <!---->
+              </div>
+            </div>
+             
+            <div
+              class="input-group input-group--prepend-icon input-group--text-field primary--text"
+            >
+              <label>
+                Password
+              </label>
+              <div
+                class="input-group__input"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon material-icons input-group__prepend-icon"
+                >
+                  lock
+                </i>
+                <input
+                  aria-label="Password"
+                  name="password"
+                  tabindex="0"
+                  type="password"
+                />
+              </div>
+              <div
+                class="input-group__details"
+              >
+                <!---->
+              </div>
+            </div>
+             
+            <div
+              aria-checked="true"
+              aria-label="Remember me"
+              class="input-group input-group--dirty checkbox input-group--selection-controls input-group--active accent--text"
+              role="checkbox"
+              tabindex="0"
+            >
+              <label>
+                Remember me
+              </label>
+              <div
+                class="input-group__input"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon icon--selection-control material-icons icon--checkbox"
+                >
+                  check_box
+                </i>
+                <div
+                  class="input-group--selection-controls__ripple"
+                />
+              </div>
+              <div
+                class="input-group__details"
+              >
+                <!---->
+              </div>
+            </div>
+          </form>
+        </div>
+         
+        <div
+          class="card__actions"
+        >
+          <div
+            class="spacer"
+          />
+           
+          <button
+            class="btn primary"
+            type="button"
+          >
+            <div
+              class="btn__content"
+            >
+              Login
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

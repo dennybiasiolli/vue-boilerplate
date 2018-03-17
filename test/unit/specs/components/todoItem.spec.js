@@ -1,11 +1,16 @@
-import { shallow } from '@vue/test-utils'
+import { shallow, createLocalVue } from '@vue/test-utils'
 import todoItem from '@/components/todoItem'
+
+const localVue = createLocalVue()
 
 describe('todoItem', () => {
   let component, element
 
   beforeEach(() => {
-    component = shallow(todoItem, { propsData: { todo: { text: 'ciao' } } })
+    component = shallow(todoItem, {
+      localVue,
+      propsData: { todo: { text: 'ciao' } }
+    })
     element = component.element
   })
 
@@ -28,6 +33,7 @@ describe('todoItem', () => {
   // Mount an instance and inspect the render output
   test('renders the correct message', () => {
     expect(element.textContent).toContain('ciao')
-    expect(component.find('li').element.textContent).toBe('ciao')
+    expect(component.find('.list__tile__title').element.textContent).toBe('ciao')
+    expect(component.find('.list__tile__sub-title').element.textContent).toBe('ciao')
   })
 })
