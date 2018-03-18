@@ -4,6 +4,7 @@ const { state, mutations, getters, actions } = moduleA
 describe('state', () => {
   test('should have default state', () => {
     expect(state.count).toBe(0)
+    expect(state.drawer).toBe(null)
   })
 })
 
@@ -25,6 +26,24 @@ describe('mutations', () => {
       increment(state, 4)
       // assert result
       expect(state.count).toBe(6)
+    })
+  })
+
+  describe('toggleDrawer', () => {
+    const { toggleDrawer } = mutations
+    test('should toggleDrawer', () => {
+      const state = { drawer: null }
+      toggleDrawer(state)
+      expect(state.drawer).toBe(true)
+      toggleDrawer(state)
+      expect(state.drawer).toBe(false)
+    })
+    test('should toggleDrawer into defined value', () => {
+      const state = { drawer: null }
+      toggleDrawer(state, true)
+      expect(state.drawer).toBe(true)
+      toggleDrawer(state, true)
+      expect(state.drawer).toBe(true)
     })
   })
 })
