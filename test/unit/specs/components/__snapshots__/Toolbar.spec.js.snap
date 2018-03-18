@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar should match snapshot 1`] = `
+<nav
+  class="toolbar toolbar--fixed"
+  style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
+>
+  <div
+    class="toolbar__content"
+    style="height: 56px;"
+  >
+    <button
+      class="toolbar__side-icon btn btn--icon"
+      type="button"
+    >
+      <div
+        class="btn__content"
+      >
+        <i
+          aria-hidden="true"
+          class="icon material-icons"
+        >
+          menu
+        </i>
+      </div>
+    </button>
+     
+    <div
+      class="toolbar__title"
+    >
+      
+    Sample App!
+  
+    </div>
+     
+    <div
+      class="spacer"
+    />
+     
+    <a>
+      
+    Logout
+    
+      <i
+        aria-hidden="true"
+        class="icon material-icons"
+        title="Logout"
+      >
+        exit_to_app
+      </i>
+    </a>
+  </div>
+</nav>
+`;

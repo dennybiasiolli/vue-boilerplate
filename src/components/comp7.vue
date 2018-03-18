@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <ol>
-      <todo-item
-        v-for="item in groceryList"
-        :todo="item"
-        :key="item.id"/>
-    </ol>
-  </div>
+  <v-list>
+    <todo-item
+      v-for="item in groceryList"
+      :todo="item"
+      :key="item.id"/>
+  </v-list>
 </template>
 
 <script>

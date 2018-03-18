@@ -2,70 +2,33 @@
 
 exports[`App should match snapshot 1`] = `
 <div
+  class="application theme--light"
+  data-app="true"
   id="app"
 >
-  <h1>
-    Sample App!
-  </h1>
-   
-  <p>
-    Click on the component to show it
-  </p>
-   
-  <p>
-    <a>
-      Component 1
-    </a>
-    
-    |
-    
-    <a>
-      Component 2
-    </a>
-    
-    |
-    
-    <a>
-      Component 3
-    </a>
-    
-    |
-    
-    <a>
-      Component 4
-    </a>
-    
-    |
-    
-    <a>
-      Component 5
-    </a>
-    
-    |
-    
-    <a>
-      Component 6
-    </a>
-    
-    |
-    
-    <a>
-      Component 7
-    </a>
-    
-    |
-    
-    <a>
-      Component 8
-    </a>
-    
-    |
-    
-    <a>
-      Dashboard
-    </a>
-  </p>
-   
-  <!---->
+  <div
+    class="application--wrap"
+  >
+    <!---->
+     
+    <!---->
+     
+    <main
+      class="content"
+      style="padding: 0px 0px 0px 0px;"
+    >
+      <div
+        class="content--wrap"
+      >
+        <div
+          class="container fluid"
+        >
+          <!---->
+        </div>
+      </div>
+    </main>
+     
+    <!---->
+  </div>
 </div>
 `;

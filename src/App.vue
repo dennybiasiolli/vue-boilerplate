@@ -1,45 +1,29 @@
 <template>
-  <div id="app">
-    <h1>Sample App!</h1>
-    <p>Click on the component to show it</p>
-    <p>
-      <!-- use router-link component for navigation. -->
-      <!-- specify the link by passing the `to` prop. -->
-      <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
-      <router-link to="/comp1">Component 1</router-link>
-      |
-      <router-link to="/comp2">Component 2</router-link>
-      |
-      <router-link to="/comp3">Component 3</router-link>
-      |
-      <router-link to="/comp4">Component 4</router-link>
-      |
-      <router-link to="/comp5">Component 5</router-link>
-      |
-      <router-link to="/comp6">Component 6</router-link>
-      |
-      <router-link to="/comp7">Component 7</router-link>
-      |
-      <router-link to="/comp8">Component 8</router-link>
-      |
-      <router-link to="/dashboard">Dashboard</router-link>
-    </p>
-    <router-view />
-  </div>
+  <v-app>
+    <Nav />
+    <Toolbar />
+    <v-content>
+      <v-container fluid>
+        <router-view />
+      </v-container>
+    </v-content>
+    <Footer />
+  </v-app>
 </template>
 
 <script>
+import Footer from './components/Footer'
+import Nav from './components/Nav'
+import Toolbar from './components/Toolbar'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Toolbar,
+    Nav,
+    Footer
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>

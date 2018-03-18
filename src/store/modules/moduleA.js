@@ -1,10 +1,15 @@
 const state = {
-  count: 0
+  count: 0,
+  drawer: null
 }
 
 const mutations = {
   increment(state, n = 1) {
     state.count += n
+  },
+
+  toggleDrawer(state, val) {
+    state.drawer = val !== undefined ? val : !state.drawer
   }
 }
 

@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`comp7 should match snapshot 1`] = `
-<div>
-  <ol>
-    <!---->
-    <!---->
-    <!---->
-  </ol>
+<div
+  class="list"
+>
+  <!---->
+  <!---->
+  <!---->
 </div>
 `;

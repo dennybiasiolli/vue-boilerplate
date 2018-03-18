@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should match snapshot 1`] = `
+<aside
+  class="navigation-drawer navigation-drawer--fixed navigation-drawer--open"
+  style="height: 100%; margin-top: 0px; max-height: calc(100% - 0px); width: 300px;"
+>
+  <nav
+    class="toolbar elevation-0"
+    style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
+  >
+    <div
+      class="toolbar__content"
+      style="height: 56px;"
+    >
+      <div
+        class="list"
+      >
+        <div>
+          <div
+            class="list__tile"
+          >
+            <div
+              class="list__tile__title title"
+            >
+              
+          Application
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+   
+  <hr
+    class="divider"
+  />
+   
+  <div
+    class="list"
+  >
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            dashboard
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Home
+          </div>
+        </div>
+      </a>
+    </div>
+     
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 1
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 2
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 3
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 4
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 5
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 6
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 7
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
+            dashboard
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Dashboard
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div
+    class="navigation-drawer__border"
+  />
+</aside>
+`;

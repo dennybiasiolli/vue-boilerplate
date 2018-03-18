@@ -1,7 +1,9 @@
 <template>
   <div>
     <p>{{ message }}</p>
-    <button @click="reverseMessage">Reverse Message</button>
+    <v-btn
+      ref="btn"
+      @click="reverseMessage">Reverse Message</v-btn>
   </div>
 </template>
 
