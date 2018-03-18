@@ -1,9 +1,10 @@
 <template>
   <v-app>
     <v-navigation-drawer
-      v-model="drawer"
+      :value="drawer"
       fixed
-      app>
+      app
+      @input="toggleDrawer">
       <v-toolbar flat>
         <v-list>
           <v-list-tile>
@@ -36,15 +37,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar
-      fixed
-      app>
-      <v-toolbar-side-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>
-        Sample App!
-      </v-toolbar-title>
-      <v-spacer />
-    </v-toolbar>
+    <Toolbar />
     <v-content>
       <v-container fluid>
         <router-view />
@@ -59,10 +52,17 @@
 </template>
 
 <script>
+import { createNamespacedHelpers } from 'vuex'
+import Toolbar from './components/Toolbar'
+
+const { mapState, mapMutations } = createNamespacedHelpers('a')
+
 export default {
   name: 'App',
+  components: {
+    Toolbar
+  },
   data: () => ({
-    drawer: null,
     components: [
       { title: 'Component 1', url: '/comp1', icon: 'polymer' },
       { title: 'Component 2', url: '/comp2', icon: 'polymer' },
@@ -74,9 +74,16 @@ export default {
       { title: 'Dashboard', url: '/dashboard', icon: 'dashboard' }
     ]
   }),
-  computed: {
-    year: () => new Date().getFullYear()
-  }
+  computed: Object.assign(
+    {
+      year: () => new Date().getFullYear()
+    },
+    mapState(['drawer'])
+  ),
+  methods: Object.assign(
+    {},
+    mapMutations(['toggleDrawer'])
+  )
 }
 </script>
 
