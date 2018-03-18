@@ -1,36 +1,218 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`comp4 should match snapshot 1`] = `
-<div>
-  <ol>
-    <li>
-      Learn JavaScript
-    </li>
-    <li>
-      Learn Vue
-    </li>
-    <li>
-      Build something awesome
-    </li>
-  </ol>
+<div
+  class="list"
+>
+  <div>
+    <a
+      class="list__tile list__tile--link"
+    >
+      <div
+        class="list__tile__action"
+      >
+        
+      1
+    
+      </div>
+       
+      <div
+        class="list__tile__content"
+      >
+        <div
+          class="list__tile__title"
+        >
+          Learn JavaScript
+        </div>
+         
+        <div
+          class="list__tile__sub-title"
+        >
+          Learn JavaScript
+        </div>
+      </div>
+    </a>
+  </div>
+  <div>
+    <a
+      class="list__tile list__tile--link"
+    >
+      <div
+        class="list__tile__action"
+      >
+        
+      2
+    
+      </div>
+       
+      <div
+        class="list__tile__content"
+      >
+        <div
+          class="list__tile__title"
+        >
+          Learn Vue
+        </div>
+         
+        <div
+          class="list__tile__sub-title"
+        >
+          Learn Vue
+        </div>
+      </div>
+    </a>
+  </div>
+  <div>
+    <a
+      class="list__tile list__tile--link"
+    >
+      <div
+        class="list__tile__action"
+      >
+        
+      3
+    
+      </div>
+       
+      <div
+        class="list__tile__content"
+      >
+        <div
+          class="list__tile__title"
+        >
+          Build something awesome
+        </div>
+         
+        <div
+          class="list__tile__sub-title"
+        >
+          Build something awesome
+        </div>
+      </div>
+    </a>
+  </div>
 </div>
 `;
 
 exports[`comp4 should match snapshot 2`] = `
-<div>
-  <ol>
-    <li>
-      Learn JavaScript
-    </li>
-    <li>
-      Learn Vue
-    </li>
-    <li>
-      Build something awesome
-    </li>
-    <li>
-      test 4th element
-    </li>
-  </ol>
+<div
+  class="list"
+>
+  <div>
+    <a
+      class="list__tile list__tile--link"
+    >
+      <div
+        class="list__tile__action"
+      >
+        
+      1
+    
+      </div>
+       
+      <div
+        class="list__tile__content"
+      >
+        <div
+          class="list__tile__title"
+        >
+          Learn JavaScript
+        </div>
+         
+        <div
+          class="list__tile__sub-title"
+        >
+          Learn JavaScript
+        </div>
+      </div>
+    </a>
+  </div>
+  <div>
+    <a
+      class="list__tile list__tile--link"
+    >
+      <div
+        class="list__tile__action"
+      >
+        
+      2
+    
+      </div>
+       
+      <div
+        class="list__tile__content"
+      >
+        <div
+          class="list__tile__title"
+        >
+          Learn Vue
+        </div>
+         
+        <div
+          class="list__tile__sub-title"
+        >
+          Learn Vue
+        </div>
+      </div>
+    </a>
+  </div>
+  <div>
+    <a
+      class="list__tile list__tile--link"
+    >
+      <div
+        class="list__tile__action"
+      >
+        
+      3
+    
+      </div>
+       
+      <div
+        class="list__tile__content"
+      >
+        <div
+          class="list__tile__title"
+        >
+          Build something awesome
+        </div>
+         
+        <div
+          class="list__tile__sub-title"
+        >
+          Build something awesome
+        </div>
+      </div>
+    </a>
+  </div>
+  <div>
+    <a
+      class="list__tile list__tile--link"
+    >
+      <div
+        class="list__tile__action"
+      >
+        
+      4
+    
+      </div>
+       
+      <div
+        class="list__tile__content"
+      >
+        <div
+          class="list__tile__title"
+        >
+          test 4th element
+        </div>
+         
+        <div
+          class="list__tile__sub-title"
+        >
+          test 4th element
+        </div>
+      </div>
+    </a>
+  </div>
 </div>
 `;

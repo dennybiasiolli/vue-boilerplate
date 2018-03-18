@@ -1,7 +1,10 @@
 <template>
   <div>
     <p>{{ message }}</p>
-    <input v-model="message">
+    <v-text-field
+      v-model="message"
+      label="Label Text"
+    />
   </div>
 </template>
 
