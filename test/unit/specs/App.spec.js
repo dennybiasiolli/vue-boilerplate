@@ -18,6 +18,5 @@ describe('App', () => {
   // the raw component options
   test('sets the correct components data', () => {
     expect(App.name).toBe('App')
-    expect(App.computed.year()).toBe(new Date().getFullYear())
   })
 })

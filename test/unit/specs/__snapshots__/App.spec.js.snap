@@ -28,20 +28,7 @@ exports[`App should match snapshot 1`] = `
       </div>
     </main>
      
-    <footer
-      class="footer footer--fixed"
-      style="height: 32px;"
-    >
-      <div
-        class="spacer"
-      />
-      
-    © 2018 - Denny Biasiolli
-    
-      <div
-        class="spacer"
-      />
-    </footer>
+    <!---->
   </div>
 </div>
 `;
