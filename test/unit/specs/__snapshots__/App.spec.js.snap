@@ -289,47 +289,11 @@ exports[`App should match snapshot 1`] = `
       />
     </aside>
      
-    <nav
-      class="toolbar toolbar--fixed"
-      style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
-    >
-      <div
-        class="toolbar__content"
-        style="height: 64px;"
-      >
-        <button
-          class="toolbar__side-icon btn btn--icon"
-          type="button"
-        >
-          <div
-            class="btn__content"
-          >
-            <i
-              aria-hidden="true"
-              class="icon material-icons"
-            >
-              menu
-            </i>
-          </div>
-        </button>
-         
-        <div
-          class="toolbar__title"
-        >
-          
-      Sample App!
-    
-        </div>
-         
-        <div
-          class="spacer"
-        />
-      </div>
-    </nav>
+    <!---->
      
     <main
       class="content"
-      style="padding: 64px 0px 0px 0px;"
+      style="padding: 0px 0px 0px 0px;"
     >
       <div
         class="content--wrap"
