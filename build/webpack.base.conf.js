@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
   entry: './src',
@@ -32,6 +33,7 @@ module.exports = {
     }]
   },
   plugins: [
+    new VueLoaderPlugin(),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin()
   ]
