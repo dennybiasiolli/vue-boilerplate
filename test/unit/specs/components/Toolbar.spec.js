@@ -61,7 +61,6 @@ describe('Toolbar', () => {
 
   test('should match snapshot', () => {
     expect(element).toMatchSnapshot()
-    component.update()
   })
 
   // Evaluate the results of functions in
