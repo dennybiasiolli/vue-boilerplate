@@ -39,10 +39,7 @@ describe('comp5', () => {
     expect(element.textContent).toContain('Hello Vue.js!')
     const pElem = component.find('p').element
     expect(pElem.textContent).toBe('Hello Vue.js!')
-    jest.spyOn(vm, 'reverseMessage')
-    component.update() // Forces to re-render, applying changes on template
     component.find('button').trigger('click')
-    expect(vm.reverseMessage).toHaveBeenCalled()
     expect(pElem.textContent).toBe('!sj.euV olleH')
     component.find('button').trigger('click')
     expect(pElem.textContent).toBe('Hello Vue.js!')
