@@ -260,6 +260,32 @@ exports[`Nav should match snapshot 1`] = `
             aria-hidden="true"
             class="icon material-icons"
           >
+            polymer
+          </i>
+        </div>
+         
+        <div
+          class="list__tile__content"
+        >
+          <div
+            class="list__tile__title"
+          >
+            Component 8
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a
+        class="list__tile list__tile--link"
+      >
+        <div
+          class="list__tile__action"
+        >
+          <i
+            aria-hidden="true"
+            class="icon material-icons"
+          >
             dashboard
           </i>
         </div>
