@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>
-      Coumponent mounted {{ count }} times
+      Component mounted {{ count }} times
     </p>
     <p>
       Counter is even? {{ isCountEven }}

@@ -4,7 +4,7 @@ exports[`comp8 should match snapshot 1`] = `
 <div>
   <p>
     
-    Coumponent mounted 0 times
+    Component mounted 0 times
   
   </p>
    
