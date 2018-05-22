@@ -53,6 +53,7 @@ describe('Nav', () => {
       { title: 'Component 5', url: '/comp5', icon: 'polymer' },
       { title: 'Component 6', url: '/comp6', icon: 'polymer' },
       { title: 'Component 7', url: '/comp7', icon: 'polymer' },
+      { title: 'Component 8', url: '/comp8', icon: 'polymer' },
       { title: 'Dashboard', url: '/dashboard', icon: 'dashboard' }
     ])
     expect(typeof Nav.computed.drawer).toBe('function')
