@@ -3,7 +3,9 @@
 exports[`comp3 should match snapshot 1`] = `
 <div>
   <span>
+    
     Now you see me
+  
   </span>
 </div>
 `;

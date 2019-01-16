@@ -13,7 +13,9 @@ exports[`comp5 should match snapshot 1`] = `
     <div
       class="v-btn__content"
     >
-      Reverse Message
+      
+    Reverse Message
+  
     </div>
   </button>
 </div>
@@ -32,7 +34,9 @@ exports[`comp5 should match snapshot 2`] = `
     <div
       class="v-btn__content"
     >
-      Reverse Message
+      
+    Reverse Message
+  
     </div>
   </button>
 </div>

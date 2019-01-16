@@ -207,7 +207,9 @@ exports[`Login should match snapshot 1`] = `
             <div
               class="v-btn__content"
             >
-              Login
+              
+            Login
+          
             </div>
           </button>
         </div>
