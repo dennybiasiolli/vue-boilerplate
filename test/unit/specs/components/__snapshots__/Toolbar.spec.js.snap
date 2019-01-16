@@ -46,7 +46,9 @@ exports[`Toolbar should match snapshot 1`] = `
         class="v-icon material-icons theme--light"
         title="Logout"
       >
-        exit_to_app
+        
+      exit_to_app
+    
       </i>
     </a>
   </div>

@@ -14,7 +14,9 @@ exports[`todoItem should match snapshot 1`] = `
         aria-hidden="true"
         class="v-icon material-icons theme--light indigo--text"
       >
-        keyboard_arrow_right
+        
+      keyboard_arrow_right
+    
       </i>
     </div>
      
