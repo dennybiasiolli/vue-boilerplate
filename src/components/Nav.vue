@@ -3,7 +3,8 @@
     :value="drawer"
     fixed
     app
-    @input="toggleDrawer">
+    @input="toggleDrawer"
+  >
     <v-toolbar flat>
       <v-list>
         <v-list-tile>
@@ -26,7 +27,8 @@
       <v-list-tile
         v-for="(c, i) in components"
         :key="i"
-        @click="$router.push(c.url)">
+        @click="$router.push(c.url)"
+      >
         <v-list-tile-action>
           <v-icon>{{ c.icon }}</v-icon>
         </v-list-tile-action>

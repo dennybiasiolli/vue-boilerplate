@@ -1,15 +1,18 @@
 <template>
   <v-container
     fluid
-    fill-height>
+    fill-height
+  >
     <v-layout
       align-center
-      justify-center>
+      justify-center
+    >
       <v-flex>
         <v-card class="elevation-12">
           <v-toolbar
             dark
-            color="primary">
+            color="primary"
+          >
             <v-toolbar-title>Login</v-toolbar-title>
           </v-toolbar>
           <v-card-text>
@@ -19,23 +22,29 @@
                 prepend-icon="person"
                 name="login"
                 label="Username"
-                type="text" />
+                type="text"
+              />
               <v-text-field
                 :value="password"
                 prepend-icon="lock"
                 name="password"
                 label="Password"
-                type="password" />
+                type="password"
+              />
               <v-checkbox
                 v-model="remember"
-                label="Remember me" />
+                label="Remember me"
+              />
             </v-form>
           </v-card-text>
           <v-card-actions>
             <v-spacer />
             <v-btn
               color="primary"
-              @click="login">Login</v-btn>
+              @click="login"
+            >
+              Login
+            </v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>
