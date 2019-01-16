@@ -15,7 +15,7 @@ exports[`Login should match snapshot 1`] = `
       >
         <nav
           class="v-toolbar theme--dark primary"
-          style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
+          style="margin-top: 0px; padding-right: 0px; padding-left: 0px; transform: translateY(0px);"
         >
           <div
             class="v-toolbar__content"
