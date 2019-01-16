@@ -7,24 +7,41 @@ exports[`comp6 should match snapshot 1`] = `
   </p>
    
   <div
-    class="input-group input-group--dirty input-group--text-field primary--text"
+    class="v-input v-text-field v-input--is-label-active v-input--is-dirty theme--light"
   >
-    <label>
-      Label Text
-    </label>
     <div
-      class="input-group__input"
+      class="v-input__control"
     >
-      <input
-        aria-label="Label Text"
-        tabindex="0"
-        type="text"
-      />
-    </div>
-    <div
-      class="input-group__details"
-    >
-      <!---->
+      <div
+        class="v-input__slot"
+      >
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            aria-hidden="true"
+            class="v-label v-label--active theme--light"
+            style="left: 0px; position: absolute;"
+          >
+            Label Text
+          </label>
+          <input
+            aria-label="Label Text"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light"
+        >
+          <div
+            class="v-messages__wrapper"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </div>

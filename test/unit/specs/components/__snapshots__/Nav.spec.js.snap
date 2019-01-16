@@ -2,26 +2,29 @@
 
 exports[`Nav should match snapshot 1`] = `
 <aside
-  class="navigation-drawer navigation-drawer--fixed navigation-drawer--open"
+  class="v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile theme--light"
   style="height: 100%; margin-top: 0px; max-height: calc(100% - 0px); width: 300px;"
 >
   <nav
-    class="toolbar elevation-0"
+    class="v-toolbar elevation-0 theme--light"
     style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
   >
     <div
-      class="toolbar__content"
-      style="height: 56px;"
+      class="v-toolbar__content"
+      style="height: 64px;"
     >
       <div
-        class="list"
+        class="v-list theme--light"
+        role="list"
       >
-        <div>
+        <div
+          role="listitem"
+        >
           <div
-            class="list__tile"
+            class="v-list__tile theme--light"
           >
             <div
-              class="list__tile__title title"
+              class="v-list__tile__title title"
             >
               
           Application
@@ -34,32 +37,35 @@ exports[`Nav should match snapshot 1`] = `
   </nav>
    
   <hr
-    class="divider"
+    class="v-divider theme--light"
   />
    
   <div
-    class="list"
+    class="v-list theme--light"
+    role="list"
   >
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             dashboard
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Home
           </div>
@@ -67,234 +73,252 @@ exports[`Nav should match snapshot 1`] = `
       </a>
     </div>
      
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 1
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 2
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 3
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 4
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 5
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 6
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 7
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             polymer
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Component 8
           </div>
         </div>
       </a>
     </div>
-    <div>
+    <div
+      role="listitem"
+    >
       <a
-        class="list__tile list__tile--link"
+        class="v-list__tile v-list__tile--link theme--light"
       >
         <div
-          class="list__tile__action"
+          class="v-list__tile__action"
         >
           <i
             aria-hidden="true"
-            class="icon material-icons"
+            class="v-icon material-icons theme--light"
           >
             dashboard
           </i>
         </div>
          
         <div
-          class="list__tile__content"
+          class="v-list__tile__content"
         >
           <div
-            class="list__tile__title"
+            class="v-list__tile__title"
           >
             Dashboard
           </div>
@@ -303,7 +327,7 @@ exports[`Nav should match snapshot 1`] = `
     </div>
   </div>
   <div
-    class="navigation-drawer__border"
+    class="v-navigation-drawer__border"
   />
 </aside>
 `;

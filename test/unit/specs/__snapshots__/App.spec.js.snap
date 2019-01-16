@@ -14,11 +14,11 @@ exports[`App should match snapshot 1`] = `
     <!---->
      
     <main
-      class="content"
+      class="v-content"
       style="padding: 0px 0px 0px 0px;"
     >
       <div
-        class="content--wrap"
+        class="v-content__wrap"
       >
         <div
           class="container fluid"

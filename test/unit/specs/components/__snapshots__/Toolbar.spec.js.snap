@@ -2,23 +2,23 @@
 
 exports[`Toolbar should match snapshot 1`] = `
 <nav
-  class="toolbar toolbar--fixed"
+  class="v-toolbar v-toolbar--fixed theme--light"
   style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
 >
   <div
-    class="toolbar__content"
-    style="height: 56px;"
+    class="v-toolbar__content"
+    style="height: 64px;"
   >
     <button
-      class="toolbar__side-icon btn btn--icon"
+      class="v-toolbar__side-icon v-btn v-btn--icon theme--light"
       type="button"
     >
       <div
-        class="btn__content"
+        class="v-btn__content"
       >
         <i
           aria-hidden="true"
-          class="icon material-icons"
+          class="v-icon material-icons theme--light"
         >
           menu
         </i>
@@ -26,7 +26,7 @@ exports[`Toolbar should match snapshot 1`] = `
     </button>
      
     <div
-      class="toolbar__title"
+      class="v-toolbar__title"
     >
       
     Sample App!
@@ -43,7 +43,7 @@ exports[`Toolbar should match snapshot 1`] = `
     
       <i
         aria-hidden="true"
-        class="icon material-icons"
+        class="v-icon material-icons theme--light"
         title="Logout"
       >
         exit_to_app
