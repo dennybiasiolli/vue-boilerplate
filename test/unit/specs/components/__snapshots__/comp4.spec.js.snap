@@ -2,14 +2,17 @@
 
 exports[`comp4 should match snapshot 1`] = `
 <div
-  class="list"
+  class="v-list theme--light"
+  role="list"
 >
-  <div>
+  <div
+    role="listitem"
+  >
     <a
-      class="list__tile list__tile--link"
+      class="v-list__tile v-list__tile--link theme--light"
     >
       <div
-        class="list__tile__action"
+        class="v-list__tile__action"
       >
         
       1
@@ -17,28 +20,30 @@ exports[`comp4 should match snapshot 1`] = `
       </div>
        
       <div
-        class="list__tile__content"
+        class="v-list__tile__content"
       >
         <div
-          class="list__tile__title"
+          class="v-list__tile__title"
         >
           Learn JavaScript
         </div>
          
         <div
-          class="list__tile__sub-title"
+          class="v-list__tile__sub-title"
         >
           Learn JavaScript
         </div>
       </div>
     </a>
   </div>
-  <div>
+  <div
+    role="listitem"
+  >
     <a
-      class="list__tile list__tile--link"
+      class="v-list__tile v-list__tile--link theme--light"
     >
       <div
-        class="list__tile__action"
+        class="v-list__tile__action"
       >
         
       2
@@ -46,28 +51,30 @@ exports[`comp4 should match snapshot 1`] = `
       </div>
        
       <div
-        class="list__tile__content"
+        class="v-list__tile__content"
       >
         <div
-          class="list__tile__title"
+          class="v-list__tile__title"
         >
           Learn Vue
         </div>
          
         <div
-          class="list__tile__sub-title"
+          class="v-list__tile__sub-title"
         >
           Learn Vue
         </div>
       </div>
     </a>
   </div>
-  <div>
+  <div
+    role="listitem"
+  >
     <a
-      class="list__tile list__tile--link"
+      class="v-list__tile v-list__tile--link theme--light"
     >
       <div
-        class="list__tile__action"
+        class="v-list__tile__action"
       >
         
       3
@@ -75,16 +82,16 @@ exports[`comp4 should match snapshot 1`] = `
       </div>
        
       <div
-        class="list__tile__content"
+        class="v-list__tile__content"
       >
         <div
-          class="list__tile__title"
+          class="v-list__tile__title"
         >
           Build something awesome
         </div>
          
         <div
-          class="list__tile__sub-title"
+          class="v-list__tile__sub-title"
         >
           Build something awesome
         </div>
@@ -96,14 +103,17 @@ exports[`comp4 should match snapshot 1`] = `
 
 exports[`comp4 should match snapshot 2`] = `
 <div
-  class="list"
+  class="v-list theme--light"
+  role="list"
 >
-  <div>
+  <div
+    role="listitem"
+  >
     <a
-      class="list__tile list__tile--link"
+      class="v-list__tile v-list__tile--link theme--light"
     >
       <div
-        class="list__tile__action"
+        class="v-list__tile__action"
       >
         
       1
@@ -111,28 +121,30 @@ exports[`comp4 should match snapshot 2`] = `
       </div>
        
       <div
-        class="list__tile__content"
+        class="v-list__tile__content"
       >
         <div
-          class="list__tile__title"
+          class="v-list__tile__title"
         >
           Learn JavaScript
         </div>
          
         <div
-          class="list__tile__sub-title"
+          class="v-list__tile__sub-title"
         >
           Learn JavaScript
         </div>
       </div>
     </a>
   </div>
-  <div>
+  <div
+    role="listitem"
+  >
     <a
-      class="list__tile list__tile--link"
+      class="v-list__tile v-list__tile--link theme--light"
     >
       <div
-        class="list__tile__action"
+        class="v-list__tile__action"
       >
         
       2
@@ -140,28 +152,30 @@ exports[`comp4 should match snapshot 2`] = `
       </div>
        
       <div
-        class="list__tile__content"
+        class="v-list__tile__content"
       >
         <div
-          class="list__tile__title"
+          class="v-list__tile__title"
         >
           Learn Vue
         </div>
          
         <div
-          class="list__tile__sub-title"
+          class="v-list__tile__sub-title"
         >
           Learn Vue
         </div>
       </div>
     </a>
   </div>
-  <div>
+  <div
+    role="listitem"
+  >
     <a
-      class="list__tile list__tile--link"
+      class="v-list__tile v-list__tile--link theme--light"
     >
       <div
-        class="list__tile__action"
+        class="v-list__tile__action"
       >
         
       3
@@ -169,28 +183,30 @@ exports[`comp4 should match snapshot 2`] = `
       </div>
        
       <div
-        class="list__tile__content"
+        class="v-list__tile__content"
       >
         <div
-          class="list__tile__title"
+          class="v-list__tile__title"
         >
           Build something awesome
         </div>
          
         <div
-          class="list__tile__sub-title"
+          class="v-list__tile__sub-title"
         >
           Build something awesome
         </div>
       </div>
     </a>
   </div>
-  <div>
+  <div
+    role="listitem"
+  >
     <a
-      class="list__tile list__tile--link"
+      class="v-list__tile v-list__tile--link theme--light"
     >
       <div
-        class="list__tile__action"
+        class="v-list__tile__action"
       >
         
       4
@@ -198,16 +214,16 @@ exports[`comp4 should match snapshot 2`] = `
       </div>
        
       <div
-        class="list__tile__content"
+        class="v-list__tile__content"
       >
         <div
-          class="list__tile__title"
+          class="v-list__tile__title"
         >
           test 4th element
         </div>
          
         <div
-          class="list__tile__sub-title"
+          class="v-list__tile__sub-title"
         >
           test 4th element
         </div>

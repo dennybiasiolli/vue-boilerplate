@@ -33,7 +33,7 @@ describe('todoItem', () => {
   // Mount an instance and inspect the render output
   test('renders the correct message', () => {
     expect(element.textContent).toContain('ciao')
-    expect(component.find('.list__tile__title').element.textContent).toBe('ciao')
-    expect(component.find('.list__tile__sub-title').element.textContent).toBe('ciao')
+    expect(component.find('.v-list__tile__title').element.textContent).toBe('ciao')
+    expect(component.find('.v-list__tile__sub-title').element.textContent).toBe('ciao')
   })
 })
