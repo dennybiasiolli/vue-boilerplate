@@ -1,11 +1,11 @@
-import { shallow } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import Dashboard from '@/components/Dashboard'
 
 describe('Dashboard', () => {
   let component, element
 
   beforeEach(() => {
-    component = shallow(Dashboard)
+    component = shallowMount(Dashboard)
     element = component.element
   })
 

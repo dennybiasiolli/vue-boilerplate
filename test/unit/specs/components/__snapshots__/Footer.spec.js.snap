@@ -1,3 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Footer should match snapshot 1`] = `<!---->`;
+exports[`Footer should match snapshot 1`] = `
+<v-footer-stub
+  app=""
+  height="32"
+>
+  <v-spacer-stub />
+  
+  © 2019 - Denny Biasiolli
+  
+  <v-spacer-stub />
+</v-footer-stub>
+`;

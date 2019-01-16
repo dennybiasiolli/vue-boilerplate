@@ -1,11 +1,11 @@
-import { shallow, createLocalVue } from '@vue/test-utils'
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import comp6 from '@/components/comp6'
 
 const localVue = createLocalVue()
 
 describe('comp6', () => {
   test('should match snapshot', () => {
-    const component = shallow(comp6, { localVue })
+    const component = shallowMount(comp6, { localVue })
     expect(component.element).toMatchSnapshot()
   })
 
@@ -19,13 +19,13 @@ describe('comp6', () => {
 
   // Inspect the component instance on mount
   test('correctly sets the seen flag when created', () => {
-    const vm = shallow(comp6).vm
+    const vm = shallowMount(comp6).vm
     expect(vm.message).toBe('Hello Vue!')
   })
 
   // Mount an instance and inspect the render output
   test('renders the correct message', () => {
-    const vm = shallow(comp6).vm
+    const vm = shallowMount(comp6).vm
     expect(vm.$el.textContent).toContain('Hello Vue!')
     expect(vm.$el.querySelector('p').textContent).toBe('Hello Vue!')
   })

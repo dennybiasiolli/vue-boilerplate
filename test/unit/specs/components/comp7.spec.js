@@ -1,4 +1,4 @@
-import { shallow, mount, createLocalVue } from '@vue/test-utils'
+import { shallowMount, mount, createLocalVue } from '@vue/test-utils'
 import comp7 from '@/components/comp7'
 import todoItem from '@/components/todoItem'
 
@@ -8,7 +8,7 @@ describe('comp7', () => {
   let component, vm, element
 
   beforeEach(() => {
-    component = shallow(comp7, { localVue })
+    component = shallowMount(comp7, { localVue })
     vm = component.vm
     element = component.element
   })

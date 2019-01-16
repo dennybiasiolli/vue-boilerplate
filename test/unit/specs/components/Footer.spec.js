@@ -1,9 +1,9 @@
-import { shallow } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import Footer from '@/components/Footer'
 
 describe('Footer', () => {
   test('should match snapshot', () => {
-    const component = shallow(Footer)
+    const component = shallowMount(Footer)
     expect(component.element).toMatchSnapshot()
   })
 

@@ -1,4 +1,4 @@
-import { shallow } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import comp2 from '@/components/comp2'
 
 describe('comp2', () => {
@@ -12,13 +12,13 @@ describe('comp2', () => {
 
   // Inspect the component instance on mount
   test('correctly sets the message when created', () => {
-    const vm = shallow(comp2).vm
+    const vm = shallowMount(comp2).vm
     expect(vm.message).toContain('You loaded this page on ')
   })
 
   // Mount an instance and inspect the render output
   test('renders the correct message', () => {
-    const vm = shallow(comp2).vm
+    const vm = shallowMount(comp2).vm
     expect(vm.$el.textContent).toContain('Hover your mouse over me for a few seconds to see my dynamically bound title!')
   })
 })

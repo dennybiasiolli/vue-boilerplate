@@ -1,34 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App should match snapshot 1`] = `
-<div
-  class="application theme--light"
-  data-app="true"
+<v-app-stub
   id="app"
 >
-  <div
-    class="application--wrap"
+  <nav-stub />
+   
+  <toolbar-stub />
+   
+  <v-content-stub
+    tag="main"
   >
-    <!---->
-     
-    <!---->
-     
-    <main
-      class="v-content"
-      style="padding: 0px 0px 0px 0px;"
+    <v-container-stub
+      fluid=""
+      tag="div"
     >
-      <div
-        class="v-content__wrap"
-      >
-        <div
-          class="container fluid"
-        >
-          <!---->
-        </div>
-      </div>
-    </main>
-     
-    <!---->
-  </div>
-</div>
+      <routerview-stub />
+    </v-container-stub>
+  </v-content-stub>
+   
+  <footer-stub />
+</v-app-stub>
 `;
