@@ -1,5 +1,5 @@
 import Vuex from 'vuex'
-import { shallow, createLocalVue } from '@vue/test-utils'
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import comp8 from '@/components/comp8'
 
 const localVue = createLocalVue()
@@ -39,7 +39,7 @@ describe('comp8', () => {
   let component, vm, element
 
   beforeEach(() => {
-    component = shallow(comp8, {
+    component = shallowMount(comp8, {
       localVue,
       store: createStore()
     })

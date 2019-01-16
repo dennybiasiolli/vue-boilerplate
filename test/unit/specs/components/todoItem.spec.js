@@ -1,4 +1,4 @@
-import { shallow, createLocalVue } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils'
 import todoItem from '@/components/todoItem'
 
 const localVue = createLocalVue()
@@ -7,7 +7,7 @@ describe('todoItem', () => {
   let component, element
 
   beforeEach(() => {
-    component = shallow(todoItem, {
+    component = mount(todoItem, {
       localVue,
       propsData: { todo: { text: 'ciao' } }
     })

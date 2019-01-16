@@ -6,43 +6,8 @@ exports[`comp6 should match snapshot 1`] = `
     Hello Vue!
   </p>
    
-  <div
-    class="v-input v-text-field v-input--is-label-active v-input--is-dirty theme--light"
-  >
-    <div
-      class="v-input__control"
-    >
-      <div
-        class="v-input__slot"
-      >
-        <div
-          class="v-text-field__slot"
-        >
-          <label
-            aria-hidden="true"
-            class="v-label v-label--active theme--light"
-            style="left: 0px; position: absolute;"
-          >
-            Label Text
-          </label>
-          <input
-            aria-label="Label Text"
-            type="text"
-          />
-        </div>
-      </div>
-      <div
-        class="v-text-field__details"
-      >
-        <div
-          class="v-messages theme--light"
-        >
-          <div
-            class="v-messages__wrapper"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <v-text-field-stub
+    label="Label Text"
+  />
 </div>
 `;

@@ -1,234 +1,144 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`comp4 should match snapshot 1`] = `
-<div
-  class="v-list theme--light"
-  role="list"
->
-  <div
-    role="listitem"
+<v-list-stub>
+  <v-list-tile-stub
+    activeclass="primary--text"
   >
-    <a
-      class="v-list__tile v-list__tile--link theme--light"
-    >
-      <div
-        class="v-list__tile__action"
-      >
-        
+    <v-list-tile-action-stub>
+      
       1
     
-      </div>
+    </v-list-tile-action-stub>
+     
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub>
+        Learn JavaScript
+      </v-list-tile-title-stub>
        
-      <div
-        class="v-list__tile__content"
-      >
-        <div
-          class="v-list__tile__title"
-        >
-          Learn JavaScript
-        </div>
-         
-        <div
-          class="v-list__tile__sub-title"
-        >
-          Learn JavaScript
-        </div>
-      </div>
-    </a>
-  </div>
-  <div
-    role="listitem"
+      <v-list-tile-sub-title-stub>
+        Learn JavaScript
+      </v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+  </v-list-tile-stub>
+  <v-list-tile-stub
+    activeclass="primary--text"
   >
-    <a
-      class="v-list__tile v-list__tile--link theme--light"
-    >
-      <div
-        class="v-list__tile__action"
-      >
-        
+    <v-list-tile-action-stub>
+      
       2
     
-      </div>
+    </v-list-tile-action-stub>
+     
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub>
+        Learn Vue
+      </v-list-tile-title-stub>
        
-      <div
-        class="v-list__tile__content"
-      >
-        <div
-          class="v-list__tile__title"
-        >
-          Learn Vue
-        </div>
-         
-        <div
-          class="v-list__tile__sub-title"
-        >
-          Learn Vue
-        </div>
-      </div>
-    </a>
-  </div>
-  <div
-    role="listitem"
+      <v-list-tile-sub-title-stub>
+        Learn Vue
+      </v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+  </v-list-tile-stub>
+  <v-list-tile-stub
+    activeclass="primary--text"
   >
-    <a
-      class="v-list__tile v-list__tile--link theme--light"
-    >
-      <div
-        class="v-list__tile__action"
-      >
-        
+    <v-list-tile-action-stub>
+      
       3
     
-      </div>
+    </v-list-tile-action-stub>
+     
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub>
+        Build something awesome
+      </v-list-tile-title-stub>
        
-      <div
-        class="v-list__tile__content"
-      >
-        <div
-          class="v-list__tile__title"
-        >
-          Build something awesome
-        </div>
-         
-        <div
-          class="v-list__tile__sub-title"
-        >
-          Build something awesome
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
+      <v-list-tile-sub-title-stub>
+        Build something awesome
+      </v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+  </v-list-tile-stub>
+</v-list-stub>
 `;
 
 exports[`comp4 should match snapshot 2`] = `
-<div
-  class="v-list theme--light"
-  role="list"
->
-  <div
-    role="listitem"
+<v-list-stub>
+  <v-list-tile-stub
+    activeclass="primary--text"
   >
-    <a
-      class="v-list__tile v-list__tile--link theme--light"
-    >
-      <div
-        class="v-list__tile__action"
-      >
-        
+    <v-list-tile-action-stub>
+      
       1
     
-      </div>
+    </v-list-tile-action-stub>
+     
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub>
+        Learn JavaScript
+      </v-list-tile-title-stub>
        
-      <div
-        class="v-list__tile__content"
-      >
-        <div
-          class="v-list__tile__title"
-        >
-          Learn JavaScript
-        </div>
-         
-        <div
-          class="v-list__tile__sub-title"
-        >
-          Learn JavaScript
-        </div>
-      </div>
-    </a>
-  </div>
-  <div
-    role="listitem"
+      <v-list-tile-sub-title-stub>
+        Learn JavaScript
+      </v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+  </v-list-tile-stub>
+  <v-list-tile-stub
+    activeclass="primary--text"
   >
-    <a
-      class="v-list__tile v-list__tile--link theme--light"
-    >
-      <div
-        class="v-list__tile__action"
-      >
-        
+    <v-list-tile-action-stub>
+      
       2
     
-      </div>
+    </v-list-tile-action-stub>
+     
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub>
+        Learn Vue
+      </v-list-tile-title-stub>
        
-      <div
-        class="v-list__tile__content"
-      >
-        <div
-          class="v-list__tile__title"
-        >
-          Learn Vue
-        </div>
-         
-        <div
-          class="v-list__tile__sub-title"
-        >
-          Learn Vue
-        </div>
-      </div>
-    </a>
-  </div>
-  <div
-    role="listitem"
+      <v-list-tile-sub-title-stub>
+        Learn Vue
+      </v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+  </v-list-tile-stub>
+  <v-list-tile-stub
+    activeclass="primary--text"
   >
-    <a
-      class="v-list__tile v-list__tile--link theme--light"
-    >
-      <div
-        class="v-list__tile__action"
-      >
-        
+    <v-list-tile-action-stub>
+      
       3
     
-      </div>
+    </v-list-tile-action-stub>
+     
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub>
+        Build something awesome
+      </v-list-tile-title-stub>
        
-      <div
-        class="v-list__tile__content"
-      >
-        <div
-          class="v-list__tile__title"
-        >
-          Build something awesome
-        </div>
-         
-        <div
-          class="v-list__tile__sub-title"
-        >
-          Build something awesome
-        </div>
-      </div>
-    </a>
-  </div>
-  <div
-    role="listitem"
+      <v-list-tile-sub-title-stub>
+        Build something awesome
+      </v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+  </v-list-tile-stub>
+  <v-list-tile-stub
+    activeclass="primary--text"
   >
-    <a
-      class="v-list__tile v-list__tile--link theme--light"
-    >
-      <div
-        class="v-list__tile__action"
-      >
-        
+    <v-list-tile-action-stub>
+      
       4
     
-      </div>
+    </v-list-tile-action-stub>
+     
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub>
+        test 4th element
+      </v-list-tile-title-stub>
        
-      <div
-        class="v-list__tile__content"
-      >
-        <div
-          class="v-list__tile__title"
-        >
-          test 4th element
-        </div>
-         
-        <div
-          class="v-list__tile__sub-title"
-        >
-          test 4th element
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
+      <v-list-tile-sub-title-stub>
+        test 4th element
+      </v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+  </v-list-tile-stub>
+</v-list-stub>
 `;

@@ -1,9 +1,9 @@
-import { shallow } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import comp1 from '@/components/comp1'
 
 describe('comp1', () => {
   test('should match snapshot', () => {
-    const component = shallow(comp1)
+    const component = shallowMount(comp1)
     expect(component.element).toMatchSnapshot()
   })
 
@@ -17,13 +17,13 @@ describe('comp1', () => {
 
   // Inspect the component instance on mount
   test('correctly sets the message when created', () => {
-    const vm = shallow(comp1).vm
+    const vm = shallowMount(comp1).vm
     expect(vm.message).toBe('Hello Vue!')
   })
 
   // Mount an instance and inspect the render output
   test('renders the correct message', () => {
-    const component = shallow(comp1)
+    const component = shallowMount(comp1)
     expect(component.element.textContent).toContain('Hello Vue!')
   })
 })

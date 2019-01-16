@@ -1,11 +1,11 @@
-import { shallow, createLocalVue } from '@vue/test-utils'
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import App from '@/App'
 
 const localVue = createLocalVue()
 
 describe('App', () => {
   test('should match snapshot', () => {
-    const component = shallow(App, {
+    const component = shallowMount(App, {
       localVue,
       stubs: {
         RouterView: true
