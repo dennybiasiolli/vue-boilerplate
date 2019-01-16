@@ -7,13 +7,15 @@ exports[`comp5 should match snapshot 1`] = `
   </p>
    
   <button
-    class="btn"
+    class="v-btn theme--light"
     type="button"
   >
     <div
-      class="btn__content"
+      class="v-btn__content"
     >
-      Reverse Message
+      
+    Reverse Message
+  
     </div>
   </button>
 </div>
@@ -26,13 +28,15 @@ exports[`comp5 should match snapshot 2`] = `
   </p>
    
   <button
-    class="btn"
+    class="v-btn theme--light"
     type="button"
   >
     <div
-      class="btn__content"
+      class="v-btn__content"
     >
-      Reverse Message
+      
+    Reverse Message
+  
     </div>
   </button>
 </div>

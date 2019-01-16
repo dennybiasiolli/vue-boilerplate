@@ -2,8 +2,9 @@
   <v-list>
     <todo-item
       v-for="item in groceryList"
+      :key="item.id"
       :todo="item"
-      :key="item.id"/>
+    />
   </v-list>
 </template>
 

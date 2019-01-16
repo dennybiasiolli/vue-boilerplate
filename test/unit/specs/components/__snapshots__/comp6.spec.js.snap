@@ -6,26 +6,8 @@ exports[`comp6 should match snapshot 1`] = `
     Hello Vue!
   </p>
    
-  <div
-    class="input-group input-group--dirty input-group--text-field primary--text"
-  >
-    <label>
-      Label Text
-    </label>
-    <div
-      class="input-group__input"
-    >
-      <input
-        aria-label="Label Text"
-        tabindex="0"
-        type="text"
-      />
-    </div>
-    <div
-      class="input-group__details"
-    >
-      <!---->
-    </div>
-  </div>
+  <v-text-field-stub
+    label="Label Text"
+  />
 </div>
 `;

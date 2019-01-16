@@ -1,9 +1,9 @@
-import { shallow } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import comp3 from '@/components/comp3'
 
 describe('comp3', () => {
   test('should match snapshot', (done) => {
-    const component = shallow(comp3)
+    const component = shallowMount(comp3)
     expect(component.element).toMatchSnapshot()
     component.vm.seen = false
     component.vm.$nextTick(() => {
@@ -22,13 +22,13 @@ describe('comp3', () => {
 
   // Inspect the component instance on mount
   test('correctly sets the seen flag when created', () => {
-    const vm = shallow(comp3).vm
+    const vm = shallowMount(comp3).vm
     expect(vm.seen).toBe(true)
   })
 
   // Mount an instance and inspect the render output
   test('renders the correct element', (done) => {
-    const vm = shallow(comp3).vm
+    const vm = shallowMount(comp3).vm
     expect(vm.$el.textContent).toContain('Now you see me')
     vm.seen = false
     vm.$nextTick(() => {

@@ -1,5 +1,5 @@
 import Vuex from 'vuex'
-import { shallow, createLocalVue } from '@vue/test-utils'
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import Nav from '@/components/Nav'
 
 const localVue = createLocalVue()
@@ -32,7 +32,7 @@ const createStore = () => {
 
 describe('Nav', () => {
   test('should match snapshot', () => {
-    const component = shallow(Nav, {
+    const component = shallowMount(Nav, {
       localVue,
       store: createStore()
     })

@@ -1,32 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`todoItem should match snapshot 1`] = `
-<div>
+<div
+  role="listitem"
+>
   <a
-    class="list__tile list__tile--link"
+    class="v-list__tile v-list__tile--link theme--light"
   >
     <div
-      class="list__tile__action"
+      class="v-list__tile__action"
     >
       <i
         aria-hidden="true"
-        class="icon indigo--text material-icons"
+        class="v-icon material-icons theme--light indigo--text"
       >
-        keyboard_arrow_right
+        
+      keyboard_arrow_right
+    
       </i>
     </div>
      
     <div
-      class="list__tile__content"
+      class="v-list__tile__content"
     >
       <div
-        class="list__tile__title"
+        class="v-list__tile__title"
       >
         ciao
       </div>
        
       <div
-        class="list__tile__sub-title"
+        class="v-list__tile__sub-title"
       >
         ciao
       </div>
