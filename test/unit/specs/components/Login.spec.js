@@ -1,5 +1,5 @@
 import Vuex from 'vuex'
-import { shallow, createLocalVue } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils'
 import Login from '@/components/Login'
 
 const localVue = createLocalVue()
@@ -36,7 +36,7 @@ describe('Login', () => {
   let component, vm, element
 
   beforeEach(() => {
-    component = shallow(Login, {
+    component = mount(Login, {
       localVue,
       store: createStore(),
       mocks: {

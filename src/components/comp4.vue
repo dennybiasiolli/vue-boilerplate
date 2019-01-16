@@ -3,7 +3,8 @@
     <v-list-tile
       v-for="(todo, key) in todos"
       :key="key"
-      @click="()=>{}">
+      @click="()=>{}"
+    >
       <v-list-tile-action>
         {{ key + 1 }}
       </v-list-tile-action>

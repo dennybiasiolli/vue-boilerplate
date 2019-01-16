@@ -1,309 +1,187 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav should match snapshot 1`] = `
-<aside
-  class="navigation-drawer navigation-drawer--fixed navigation-drawer--open"
-  style="height: 100%; margin-top: 0px; max-height: calc(100% - 0px); width: 300px;"
+<v-navigation-drawer-stub
+  app=""
+  fixed=""
+  height="100%"
+  minivariantwidth="80"
+  mobilebreakpoint="1264"
+  width="300"
 >
-  <nav
-    class="toolbar elevation-0"
-    style="margin-top: 0px; padding-right: 0px; padding-left: 0px;"
+  <v-toolbar-stub
+    flat="true"
+    scrollthreshold="300"
   >
-    <div
-      class="toolbar__content"
-      style="height: 56px;"
-    >
-      <div
-        class="list"
+    <v-list-stub>
+      <v-list-tile-stub
+        activeclass="primary--text"
       >
-        <div>
-          <div
-            class="list__tile"
-          >
-            <div
-              class="list__tile__title title"
-            >
-              
+        <v-list-tile-title-stub
+          class="title"
+        >
+          
           Application
         
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+        </v-list-tile-title-stub>
+      </v-list-tile-stub>
+    </v-list-stub>
+  </v-toolbar-stub>
    
-  <hr
-    class="divider"
-  />
+  <v-divider-stub />
    
-  <div
-    class="list"
-  >
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            dashboard
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Home
-          </div>
-        </div>
-      </a>
-    </div>
+  <v-list-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          dashboard
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Home
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
      
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 1
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 2
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 3
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 4
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 5
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 6
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 7
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            polymer
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Component 8
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      <a
-        class="list__tile list__tile--link"
-      >
-        <div
-          class="list__tile__action"
-        >
-          <i
-            aria-hidden="true"
-            class="icon material-icons"
-          >
-            dashboard
-          </i>
-        </div>
-         
-        <div
-          class="list__tile__content"
-        >
-          <div
-            class="list__tile__title"
-          >
-            Dashboard
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-  <div
-    class="navigation-drawer__border"
-  />
-</aside>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 1
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 2
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 3
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 4
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 5
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 6
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 7
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          polymer
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Component 8
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+    <v-list-tile-stub
+      activeclass="primary--text"
+    >
+      <v-list-tile-action-stub>
+        <v-icon-stub>
+          dashboard
+        </v-icon-stub>
+      </v-list-tile-action-stub>
+       
+      <v-list-tile-content-stub>
+        <v-list-tile-title-stub>
+          Dashboard
+        </v-list-tile-title-stub>
+      </v-list-tile-content-stub>
+    </v-list-tile-stub>
+  </v-list-stub>
+</v-navigation-drawer-stub>
 `;

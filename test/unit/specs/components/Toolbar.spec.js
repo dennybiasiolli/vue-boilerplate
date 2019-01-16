@@ -1,5 +1,5 @@
 import Vuex from 'vuex'
-import { shallow, createLocalVue } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils'
 import Toolbar from '@/components/Toolbar'
 
 const localVue = createLocalVue()
@@ -43,7 +43,7 @@ describe('Toolbar', () => {
   let component, vm, element
 
   beforeEach(() => {
-    component = shallow(Toolbar, {
+    component = mount(Toolbar, {
       localVue,
       store: createStore(),
       mocks: {
