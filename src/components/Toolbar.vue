@@ -1,7 +1,8 @@
 <template>
   <v-toolbar
     fixed
-    app>
+    app
+  >
     <v-toolbar-side-icon @click.stop="handleToggle" />
     <v-toolbar-title>
       Sample App!
@@ -9,10 +10,14 @@
     <v-spacer />
     <a
       v-if="isLogged"
-      @click="handleLogout">
+      @click="handleLogout"
+    >
       Logout
       <v-icon
-        title="Logout">exit_to_app</v-icon>
+        title="Logout"
+      >
+        exit_to_app
+      </v-icon>
     </a>
   </v-toolbar>
 </template>

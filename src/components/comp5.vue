@@ -3,7 +3,10 @@
     <p>{{ message }}</p>
     <v-btn
       ref="btn"
-      @click="reverseMessage">Reverse Message</v-btn>
+      @click="reverseMessage"
+    >
+      Reverse Message
+    </v-btn>
   </div>
 </template>
 
